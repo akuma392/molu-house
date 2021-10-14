@@ -1,0 +1,20 @@
+.menu-list {
+  padding-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.menu-sub-list {
+  list-style: disc;
+  margin-bottom: 1rem;
+}
+.menu-sub-list h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #01020ccc;
+}
+.menu-sub-list p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5rem;
+}

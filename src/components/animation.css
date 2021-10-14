@@ -1,0 +1,30 @@
+#hero-h1 {
+  animation-name: animations;
+  animation-duration: 5s;
+  display: none;
+  animation-fill-mode: forwards;
+  transition-delay: 4s;
+}
+
+@keyframes animations {
+  0% {
+    display: none;
+  }
+  25% {
+    display: block;
+    transform: scale(0.2);
+  }
+  50% {
+    display: block;
+    transform: scale(0.5);
+  }
+  75% {
+    display: block;
+    transform: scale(0.75);
+  }
+
+  100% {
+    display: block;
+    transform: scale(1);
+  }
+}
